@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="basic-example" />
+    <orderEntry type="module" module-name="function" />
+    <orderEntry type="module" module-name="runtime-core" />
+    <orderEntry type="module" module-name="runtime-compute" />
+    <orderEntry type="module" module-name="runtime-application" />
+    <orderEntry type="module" module-name="jvm-version" />
+    <orderEntry type="module" module-name="connector-mysql" />
+    <orderEntry type="module" module-name="connector-mariadb" />
+    <orderEntry type="module" module-name="connector-postgres" />
+    <orderEntry type="module" module-name="connector-sqlite" />
+    <orderEntry type="module" module-name="runtime-welcome" />
+    <orderEntry type="module" module-name="runtime-field" />
+    <orderEntry type="module" module-name="runtime-bulk" />
+    <orderEntry type="module" module-name="runtime-join" />
+    <orderEntry type="module" module-name="tuple" />
+    <orderEntry type="module" module-name="json" />
+    <orderEntry type="module" module-name="mapstream" />
+    <orderEntry type="module" module-name="logger" />
+    <orderEntry type="module" module-name="invariant" />
+    <orderEntry type="module" module-name="singleton-stream" scope="RUNTIME" />
+    <orderEntry type="module" module-name="custom-typemapper" />
+    <orderEntry type="module" module-name="runtime-typemapper" />
+    <orderEntry type="module" module-name="runtime-config" />
+    <orderEntry type="module" module-name="injector" />
+    <orderEntry type="module" module-name="generator-translator" />
+    <orderEntry type="module" module-name="codegen" />
+    <orderEntry type="module" module-name="annotation" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.13" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.6.1" level="project" />
+  </component>
+</module>

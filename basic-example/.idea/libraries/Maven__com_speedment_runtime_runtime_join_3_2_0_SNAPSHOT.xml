@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.speedment.runtime:runtime-join:3.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/speedment/runtime/runtime-join/3.2.0-SNAPSHOT/runtime-join-3.2.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/speedment/runtime/runtime-join/3.2.0-SNAPSHOT/runtime-join-3.2.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/speedment/runtime/runtime-join/3.2.0-SNAPSHOT/runtime-join-3.2.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

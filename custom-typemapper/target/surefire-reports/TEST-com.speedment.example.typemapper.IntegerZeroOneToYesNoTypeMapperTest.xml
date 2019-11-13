@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.speedment.example.typemapper.IntegerZeroOneToYesNoTypeMapperTest" time="0.032" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/pemi/orm/speedment/example-parent/custom-typemapper/target/test-classes:/Users/pemi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/pemi/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/pemi/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/pemi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/pemi/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/pemi/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/pemi/orm/speedment/example-parent/custom-typemapper/target/surefire 2019-11-12T11-54-45_610-jvmRun1 surefire3295734255321481991tmp surefire_06754559192839618399tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/pemi/orm/speedment/example-parent/custom-typemapper/target/test-classes:/Users/pemi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/pemi/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/pemi/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/pemi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/pemi/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/pemi/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/pemi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="/Users/pemi/orm/speedment/example-parent/custom-typemapper/target/classes:/Users/pemi/.m2/repository/com/speedment/runtime/runtime-typemapper/3.2.1-SNAPSHOT/runtime-typemapper-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/runtime/runtime-config/3.2.1-SNAPSHOT/runtime-config-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/common/mapstream/3.2.1-SNAPSHOT/mapstream-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/common/function/3.2.1-SNAPSHOT/function-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/common/invariant/3.2.1-SNAPSHOT/invariant-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/common/injector/3.2.1-SNAPSHOT/injector-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/common/logger/3.2.1-SNAPSHOT/logger-3.2.1-SNAPSHOT.jar:/Users/pemi/orm/speedment/generator-parent/generator-translator/target/generator-translator-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/common/codegen/3.2.1-SNAPSHOT/codegen-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/runtime/runtime-core/3.2.1-SNAPSHOT/runtime-core-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/common/json/3.2.1-SNAPSHOT/json-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/common/tuple/3.2.1-SNAPSHOT/tuple-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/runtime/runtime-field/3.2.1-SNAPSHOT/runtime-field-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/runtime/runtime-compute/3.2.1-SNAPSHOT/runtime-compute-3.2.1-SNAPSHOT.jar:/Users/pemi/.m2/repository/com/speedment/common/annotation/3.2.1-SNAPSHOT/annotation-3.2.1-SNAPSHOT.jar"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/pemi/orm/speedment/example-parent/custom-typemapper"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/pemi/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M3/surefire-booter-3.0.0-M3.jar:/Users/pemi/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M3/surefire-api-3.0.0-M3.jar:/Users/pemi/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M3/surefire-logger-api-3.0.0-M3.jar:/Users/pemi/orm/speedment/example-parent/custom-typemapper/target/test-classes:/Users/pemi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/pemi/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/pemi/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/pemi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/pemi/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/pemi/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/pemi/.m2/repository/org/apache/maven/surefire/surefire-junit-platform/3.0.0-M3/surefire-junit-platform-3.0.0-M3.jar:/Users/pemi/.m2/repository/org/apache/maven/surefire/common-java5/3.0.0-M3/common-java5-3.0.0-M3.jar:/Users/pemi/.m2/repository/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.5+10"/>
+    <property name="user.name" value="pemi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="/Users/pemi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-build/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/k0/dwhrdv5106zgbly72by6yys40000gn/T/"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="user.dir" value="/Users/pemi/orm/speedment/example-parent/custom-typemapper"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/pemi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.5+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testGetOrdering" classname="com.speedment.example.typemapper.IntegerZeroOneToYesNoTypeMapperTest" time="0.021"/>
+  <testcase name="testGetLabel" classname="com.speedment.example.typemapper.IntegerZeroOneToYesNoTypeMapperTest" time="0.001"/>
+  <testcase name="testToJavaType" classname="com.speedment.example.typemapper.IntegerZeroOneToYesNoTypeMapperTest" time="0.001"/>
+  <testcase name="testGetJavaType" classname="com.speedment.example.typemapper.IntegerZeroOneToYesNoTypeMapperTest" time="0.001"/>
+  <testcase name="testToDatabaseType" classname="com.speedment.example.typemapper.IntegerZeroOneToYesNoTypeMapperTest" time="0"/>
+</testsuite>

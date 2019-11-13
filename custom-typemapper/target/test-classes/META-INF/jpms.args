@@ -1,0 +1,4 @@
+--patch-module
+custom.typemapper=_
+--add-reads
+custom.typemapper=ALL-UNNAMED

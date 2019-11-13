@@ -1,0 +1,3 @@
+module-info.class
+com/speedment/example/typemapper/IntegerZeroOneToYesNoTypeMapper.class
+com/speedment/example/typemapper/CustomTypeMapperInstaller.class
