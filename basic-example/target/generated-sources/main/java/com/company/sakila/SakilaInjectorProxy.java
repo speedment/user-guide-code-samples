@@ -35,7 +35,7 @@ public final class SakilaInjectorProxy implements InjectorProxy {
     }
     
     @Override
-    public <T> T newInstance(Constructor<T> constructor, Object... args) throws InstantiationException, IllegalAccessException, InvocationTargetException {
+    public <T> T newInstance(Constructor<T> constructor, Object... args) throws InstantiationException, InvocationTargetException, IllegalAccessException {
         return constructor.newInstance(args);
     }
     
@@ -43,7 +43,7 @@ public final class SakilaInjectorProxy implements InjectorProxy {
     public Object invoke(
             Method method,
             Object obj,
-            Object... args) throws IllegalAccessException, InvocationTargetException, IllegalArgumentException {
+            Object... args) throws InvocationTargetException, IllegalArgumentException, IllegalAccessException {
         return method.invoke(obj, args);
     }
 }

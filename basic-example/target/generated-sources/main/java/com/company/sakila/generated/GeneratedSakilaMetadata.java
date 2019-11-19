@@ -19,7 +19,7 @@ import java.util.stream.Stream;
 @GeneratedCode("Speedment")
 public class GeneratedSakilaMetadata extends AbstractApplicationMetadata {
     
-    private final static String METADATA = init();
+    private static final String METADATA = init();
     
     private static String init() {
         final StringBuilder sb = new StringBuilder();
@@ -2536,7 +2536,7 @@ public class GeneratedSakilaMetadata extends AbstractApplicationMetadata {
             "    \"name\" : \"sakila\",",
             "    \"nameProtected\" : false,",
             "    \"packageLocation\" : \"target/generated-sources/main/java/\",",
-            "    \"speedmentVersion\" : \"Speedment:3.2.1-SNAPSHOT\"",
+            "    \"speedmentVersion\" : \"Speedment:3.2.2-SNAPSHOT\"",
             "  }",
             "}"
         ).forEachOrdered(sb::append);

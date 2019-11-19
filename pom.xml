@@ -31,7 +31,7 @@
 
     <groupId>com.speedment.example</groupId>
     <artifactId>example-parent</artifactId>
-    <version>3.2.1-SNAPSHOT</version>
+    <version>3.2.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -39,7 +39,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <!--<mysql.version>5.1.48</mysql.version>-->
-        <mysql.version>8.0.13</mysql.version>
+        <mysql.version>8.0.18</mysql.version>
         <speedment.version>${project.version}</speedment.version>
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
         <junit.platform.provider.version>1.5.2</junit.platform.provider.version>
@@ -53,7 +53,8 @@
     <modules>
         <module>custom-typemapper</module>
         <module>basic-example</module>
-<!--        <module>mod-jlink</module>-->
+        <module>microservice-jlink</module>
+        <!--        <module>mod-jlink</module>-->
     </modules>
 
     <build>

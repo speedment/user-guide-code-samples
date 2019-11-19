@@ -1,3 +1,3 @@
-/Users/pemi/orm/speedment/example-parent/custom-typemapper/src/main/java/com/speedment/example/typemapper/CustomTypeMapperInstaller.java
-/Users/pemi/orm/speedment/example-parent/custom-typemapper/src/main/java/com/speedment/example/typemapper/IntegerZeroOneToYesNoTypeMapper.java
-/Users/pemi/orm/speedment/example-parent/custom-typemapper/src/main/java/module-info.java
+/Users/pemi/orm/user-guide-code-samples/custom-typemapper/src/main/java/module-info.java
+/Users/pemi/orm/user-guide-code-samples/custom-typemapper/src/main/java/com/speedment/example/typemapper/IntegerZeroOneToYesNoTypeMapper.java
+/Users/pemi/orm/user-guide-code-samples/custom-typemapper/src/main/java/com/speedment/example/typemapper/CustomTypeMapperInstaller.java

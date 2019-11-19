@@ -10,27 +10,21 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.speedment.runtime:runtime-typemapper:3.2.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.speedment.runtime:runtime-config:3.2.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.speedment.generator:generator-translator:3.2.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.speedment.runtime:runtime-core:3.2.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.speedment.runtime:runtime-field:3.2.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.speedment.runtime:runtime-compute:3.2.0-SNAPSHOT" level="project" />
-    <orderEntry type="module" module-name="runtime-typemapper" />
-    <orderEntry type="module" module-name="runtime-config" />
-    <orderEntry type="module" module-name="mapstream" />
-    <orderEntry type="module" module-name="function" />
-    <orderEntry type="module" module-name="invariant" />
-    <orderEntry type="module" module-name="injector" />
-    <orderEntry type="module" module-name="logger" />
-    <orderEntry type="module" module-name="generator-translator" />
-    <orderEntry type="module" module-name="codegen" />
-    <orderEntry type="module" module-name="runtime-core" />
-    <orderEntry type="module" module-name="json" />
-    <orderEntry type="module" module-name="tuple" />
-    <orderEntry type="module" module-name="runtime-field" />
-    <orderEntry type="module" module-name="runtime-compute" />
-    <orderEntry type="module" module-name="annotation" />
+    <orderEntry type="library" name="Maven: com.speedment.runtime:runtime-typemapper:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.runtime:runtime-config:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.common:mapstream:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.common:function:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.common:invariant:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.common:injector:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.common:logger:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.generator:generator-translator:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.common:codegen:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.runtime:runtime-core:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.common:json:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.common:tuple:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.runtime:runtime-field:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.runtime:runtime-compute:3.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.common:annotation:3.2.2-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.5.2" level="project" />
