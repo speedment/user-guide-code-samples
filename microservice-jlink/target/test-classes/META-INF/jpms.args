@@ -1,4 +1,0 @@
---patch-module
-microservice.jlink=_
---add-reads
-microservice.jlink=ALL-UNNAMED

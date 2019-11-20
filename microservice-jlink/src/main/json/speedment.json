@@ -1,15 +1,16 @@
 {
   "config" : {
-    "speedmentVersion" : "Speedment:3.2.1-SNAPSHOT",
+    "speedmentVersion" : "Speedment:3.2.2-SNAPSHOT",
     "nameProtected" : false,
     "expanded" : true,
-    "appId" : "7166c4e0-3e46-40be-9f4f-5325a7fb5885",
+    "appId" : "3d5d1829-020d-4a4d-a98d-7b4395c752f0",
     "companyName" : "company",
     "name" : "sakila",
     "packageLocation" : "target/generated-sources/main/java/",
     "id" : "sakila",
     "dbmses" : [
       {
+        "nameProtected" : true,
         "expanded" : true,
         "port" : 3306,
         "schemas" : [
@@ -108,7 +109,6 @@
                 "enabled" : false
               },
               {
-                "nameProtected" : true,
                 "foreignKeys" : [
                   {
                     "expanded" : false,
@@ -171,22 +171,6 @@
                     ],
                     "id" : "idx_fk_city_id",
                     "enabled" : true
-                  },
-                  {
-                    "expanded" : false,
-                    "unique" : false,
-                    "name" : "idx_location",
-                    "indexColumns" : [
-                      {
-                        "orderType" : "ASC",
-                        "expanded" : true,
-                        "name" : "location",
-                        "id" : "location",
-                        "ordinalPosition" : 1
-                      }
-                    ],
-                    "id" : "idx_location",
-                    "enabled" : true
                   }
                 ],
                 "isView" : false,
@@ -231,13 +215,10 @@
                   },
                   {
                     "databaseType" : "java.lang.Integer",
-                    "nameProtected" : true,
-                    "expanded" : true,
                     "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "expanded" : true,
                     "nullable" : false,
-                    "autoIncrement" : false,
                     "name" : "city_id",
-                    "nullableImplementation" : "OPTIONAL",
                     "id" : "city_id",
                     "ordinalPosition" : 5,
                     "enabled" : true
@@ -261,21 +242,12 @@
                     "enabled" : true
                   },
                   {
-                    "databaseType" : "java.sql.Blob",
-                    "expanded" : true,
-                    "nullable" : false,
-                    "name" : "location",
-                    "id" : "location",
-                    "ordinalPosition" : 8,
-                    "enabled" : true
-                  },
-                  {
                     "databaseType" : "java.sql.Timestamp",
                     "expanded" : true,
                     "nullable" : false,
                     "name" : "last_update",
                     "id" : "last_update",
-                    "ordinalPosition" : 9,
+                    "ordinalPosition" : 8,
                     "enabled" : true
                   }
                 ],
@@ -349,7 +321,6 @@
                 "enabled" : false
               },
               {
-                "nameProtected" : true,
                 "foreignKeys" : [
                   {
                     "expanded" : false,
@@ -701,7 +672,7 @@
                     "enabled" : true
                   },
                   {
-                    "databaseType" : "java.lang.Boolean",
+                    "databaseType" : "java.lang.Integer",
                     "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
                     "expanded" : true,
                     "nullable" : false,
@@ -798,22 +769,6 @@
                       }
                     ],
                     "id" : "PRIMARY",
-                    "enabled" : true
-                  },
-                  {
-                    "expanded" : false,
-                    "unique" : false,
-                    "name" : "idx_film_rating",
-                    "indexColumns" : [
-                      {
-                        "orderType" : "ASC",
-                        "expanded" : true,
-                        "name" : "rating",
-                        "id" : "rating",
-                        "ordinalPosition" : 1
-                      }
-                    ],
-                    "id" : "idx_film_rating",
                     "enabled" : true
                   },
                   {
@@ -1261,6 +1216,7 @@
                 "enabled" : false
               },
               {
+                "nameProtected" : true,
                 "expanded" : false,
                 "primaryKeyColumns" : [
                   {
@@ -2070,7 +2026,8 @@
                         "ordinalPosition" : 1
                       }
                     ],
-                    "id" : "PRIMARY"
+                    "id" : "PRIMARY",
+                    "enabled" : true
                   },
                   {
                     "expanded" : false,
@@ -2085,7 +2042,8 @@
                         "ordinalPosition" : 1
                       }
                     ],
-                    "id" : "idx_fk_address_id"
+                    "id" : "idx_fk_address_id",
+                    "enabled" : true
                   },
                   {
                     "expanded" : false,
@@ -2173,7 +2131,7 @@
                     "enabled" : true
                   },
                   {
-                    "databaseType" : "java.lang.Boolean",
+                    "databaseType" : "java.lang.Integer",
                     "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
                     "expanded" : true,
                     "nullable" : false,
@@ -2663,7 +2621,6 @@
                 "enabled" : false
               },
               {
-                "nameProtected" : true,
                 "expanded" : false,
                 "isView" : true,
                 "columns" : [
@@ -2817,11 +2774,11 @@
           }
         ],
         "typeName" : "MySQL",
-        "ipAddress" : "127.0.0.1",
+        "ipAddress" : "35.203.190.83",
         "name" : "sakila",
         "id" : "sakila",
         "enabled" : true,
-        "username" : "sakila-user"
+        "username" : "sakila"
       }
     ],
     "enabled" : true
