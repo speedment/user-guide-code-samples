@@ -32,8 +32,14 @@ public final class Main {
             .forEach(System.out::println);
 
 
+        /*
+        // Test with jmap
         System.gc();
         System.in.read();
+         */
+
+        app.stop();
+
 
     }
 }
