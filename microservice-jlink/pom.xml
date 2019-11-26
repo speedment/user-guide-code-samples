@@ -27,11 +27,6 @@
                         <version>${mysql.version}</version>
                         <scope>runtime</scope>
                     </dependency>
-                    <dependency>
-                        <groupId>com.speedment.example</groupId>
-                        <artifactId>custom-typemapper</artifactId>
-                        <version>${speedment.version}</version>
-                    </dependency>
                 </dependencies>
                 <configuration>
                     <appName>${project.artifactId}</appName>

@@ -53,7 +53,7 @@
         <dependency>
             <groupId>com.speedment.example</groupId>
             <artifactId>custom-typemapper</artifactId>
-            <version>${speedment.version}</version>
+            <version>${project.version}</version>
         </dependency>
 
     </dependencies>
@@ -74,7 +74,7 @@
                     <dependency>
                         <groupId>com.speedment.example</groupId>
                         <artifactId>custom-typemapper</artifactId>
-                        <version>${speedment.version}</version>
+                        <version>${project.version}</version>
                     </dependency>
                 </dependencies>
                 <configuration>
