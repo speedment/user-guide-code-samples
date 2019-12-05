@@ -41,7 +41,7 @@
         <!--<mysql.version>5.1.48</mysql.version>-->
         <mysql.version>8.0.18</mysql.version>
 <!--        <speedment.version>${project.version}</speedment.version>-->
-        <speedment.version>3.2.1</speedment.version>
+        <speedment.version>3.2.2</speedment.version>
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
         <junit.platform.provider.version>1.5.2</junit.platform.provider.version>
     </properties>
